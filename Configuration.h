@@ -380,9 +380,10 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Reach3D
-  #define DEFAULT_Kp 30.62
-  #define DEFAULT_Ki 2.53
-  #define DEFAULT_Kd 92.82
+  // Kp: 24.91 Ki: 2.32 Kd: 66.83
+  #define DEFAULT_Kp 24.91
+  #define DEFAULT_Ki 2.32
+  #define DEFAULT_Kd 66.83
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -1885,8 +1886,8 @@
 //  #define RGB_LED_B_PIN 35
 //  #define RGB_LED_W_PIN -1
 
-  #define RGB_LED_R_PIN  4
-  #define RGB_LED_G_PIN  5
+  #define RGB_LED_R_PIN  5
+  #define RGB_LED_G_PIN  4
   #define RGB_LED_B_PIN  6
   #define RGB_LED_W_PIN 11
 #endif

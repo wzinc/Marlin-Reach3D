@@ -77,8 +77,8 @@
 #if ENABLED(THERMAL_PROTECTION_HOTENDS)
 //  #define THERMAL_PROTECTION_PERIOD 40        // Seconds
 //  #define THERMAL_PROTECTION_HYSTERESIS 4     // Degrees Celsius
-  #define THERMAL_PROTECTION_PERIOD 90        // Seconds
-  #define THERMAL_PROTECTION_HYSTERESIS 10     // Degrees Celsius
+  #define THERMAL_PROTECTION_PERIOD 45        // Seconds
+  #define THERMAL_PROTECTION_HYSTERESIS 5     // Degrees Celsius
 
   /**
    * Whenever an M104, M109, or M303 increases the target temperature, the
@@ -94,8 +94,8 @@
    */
 //  #define WATCH_TEMP_PERIOD 20                // Seconds
 //  #define WATCH_TEMP_INCREASE 2               // Degrees Celsius
-  #define WATCH_TEMP_PERIOD 90                // Seconds
-  #define WATCH_TEMP_INCREASE 10               // Degrees Celsius
+  #define WATCH_TEMP_PERIOD 40                // Seconds
+  #define WATCH_TEMP_INCREASE 5               // Degrees Celsius
 #endif
 
 /**
@@ -104,16 +104,16 @@
 #if ENABLED(THERMAL_PROTECTION_BED)
 //  #define THERMAL_PROTECTION_BED_PERIOD 20    // Seconds
 //  #define THERMAL_PROTECTION_BED_HYSTERESIS 2 // Degrees Celsius
-  #define THERMAL_PROTECTION_BED_PERIOD 90    // Seconds
-  #define THERMAL_PROTECTION_BED_HYSTERESIS 10 // Degrees Celsius
+  #define THERMAL_PROTECTION_BED_PERIOD 40    // Seconds
+  #define THERMAL_PROTECTION_BED_HYSTERESIS 2 // Degrees Celsius
 
   /**
    * As described above, except for the bed (M140/M190/M303).
    */
 //  #define WATCH_BED_TEMP_PERIOD 60                // Seconds
 //  #define WATCH_BED_TEMP_INCREASE 2               // Degrees Celsius
-  #define WATCH_BED_TEMP_PERIOD 90                // Seconds
-  #define WATCH_BED_TEMP_INCREASE 10               // Degrees Celsius
+  #define WATCH_BED_TEMP_PERIOD 40                // Seconds
+  #define WATCH_BED_TEMP_INCREASE 2               // Degrees Celsius
 #endif
 
 #if ENABLED(PIDTEMP)
