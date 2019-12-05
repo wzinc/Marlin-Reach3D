@@ -380,10 +380,10 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Reach3D
-  // Kp: 24.91 Ki: 2.32 Kd: 66.83
-  #define DEFAULT_Kp 24.91
-  #define DEFAULT_Ki 2.32
-  #define DEFAULT_Kd 66.83
+  // Kp: 24.73 Ki: 2.27 Kd: 67.35
+  #define DEFAULT_Kp 24.73
+  #define DEFAULT_Ki 2.27
+  #define DEFAULT_Kd 67.35
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
